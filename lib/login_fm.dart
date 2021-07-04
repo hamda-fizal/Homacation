@@ -84,6 +84,11 @@ class _LoginPageState extends State<LoginPageFM> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Image.asset(
+                  'assets/homacationlogo.png',
+                  width : 100,
+                  height:100
+                ),
                 Container(
                   alignment: Alignment.center,
                   padding: EdgeInsets.all(10),
