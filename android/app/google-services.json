@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "51094935862",
+    "project_id": "homacation",
+    "storage_bucket": "homacation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51094935862:android:ac6b3af2a4a1230d1e7b97",
+        "android_client_info": {
+          "package_name": "com.example.hack_the_gap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51094935862-lb0bjdc2a2r3c76blbuotq1e87oa037e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc9za-cmigfkrLiOME7UPiIsicBQEvBDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51094935862-lb0bjdc2a2r3c76blbuotq1e87oa037e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
