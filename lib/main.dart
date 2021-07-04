@@ -19,6 +19,7 @@ class App extends StatelessWidget {
           return TaskListListener();
         },
         child: MaterialApp(
+           debugShowCheckedModeBanner: false,
           home: HomePage(),
           theme: ThemeData(
               accentColor: Colors.deepPurple,
@@ -31,6 +32,20 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.deepPurpleAccent,
+        title: Row(
+          children: <Widget>[
+            Image.asset(
+              "assets/homacationlogo.png",
+              height: 40,
+              width: 40,
+            ),
+            Text(" Homacation"),
+          ],
+        ),
+      ),
       body: Align(
         alignment: Alignment.center,
         child: Column(
